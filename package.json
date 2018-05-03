@@ -2,7 +2,7 @@
   "name": "aurelia-bulma",
   "version": "1.0.0",
   "description": "Aurelia components for Bulma css framework",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

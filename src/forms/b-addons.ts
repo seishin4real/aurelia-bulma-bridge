@@ -1,5 +1,5 @@
+import { BooleanAttrValue, handleBooleanAttrSimply } from '../utils';
 import { bindable, containerless, customElement } from 'aurelia-framework';
-import { BooleanAttrValue, handleBooleanAttrSimply } from 'resources';
 
 @containerless()
 @customElement('b-addons')
