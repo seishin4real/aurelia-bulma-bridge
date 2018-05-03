@@ -1,5 +1,5 @@
+import { stringPrefixedCssClass } from '../utils';
 import { bindable, containerless, customElement } from 'aurelia-framework';
-import { stringPrefixedCssClass } from 'resources';
 
 @containerless()
 @customElement('b-textarea')

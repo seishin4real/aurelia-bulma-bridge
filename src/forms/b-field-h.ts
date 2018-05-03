@@ -1,5 +1,5 @@
+import { attributeToggledCssClass, BooleanAttrValue, stringPrefixedCssClass } from '../utils';
 import { bindable, containerless, customElement } from 'aurelia-framework';
-import { attributeToggledCssClass, BooleanAttrValue, stringPrefixedCssClass } from 'resources';
 
 @containerless()
 @customElement('b-field-h')
