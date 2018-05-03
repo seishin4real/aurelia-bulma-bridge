@@ -1,0 +1,10 @@
+<template>
+  <div class="field">
+    <p class="control ${isExpandedCss} ${iconLeftCss} ${iconRightCss}">
+      <input class="input ${sizeCss} ${isRightCss}" type="${type}" placeholder.to-view="placeholder" value.bind="value">
+      <icon if.bind="iconLeft" fa="${iconLeft}" css="is-small is-left"></icon>
+      <icon if.bind="iconRight" fa="${iconRight}" css="is-small is-right"></icon>
+    </p>
+    <p if.bind="help" class="help" innerhtml.to-view="help"></p>
+  </div>
+</template>

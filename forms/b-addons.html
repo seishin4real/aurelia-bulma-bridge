@@ -1,0 +1,8 @@
+<template>
+  <div class="field is-expanded">
+    <div class="field has-addons">
+      <slot></slot>
+    </div>
+    <p if.bind="help" class="help" innerhtml.to-view="help"></p>
+  </div>
+</template>

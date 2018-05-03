@@ -1,0 +1,14 @@
+{
+  "name": "aurelia-bulma",
+  "version": "1.0.0",
+  "description": "Aurelia components for Bulma css framework",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Seishin",
+  "license": "ISC",
+  "dependencies": {
+    "aurelia-framework": "^1.2.0"
+  }
+}

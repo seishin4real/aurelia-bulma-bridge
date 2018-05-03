@@ -1,0 +1,15 @@
+<template>
+  <div class="modal is-active">
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">${title}</p>
+      </header>
+      <section class="modal-card-body">
+        <slot></slot>
+      </section>
+      <footer class="modal-card-foot" ref="footer">
+        <slot name="footer"></slot>
+      </footer>
+    </div>
+  </div>
+</template>
