@@ -11,7 +11,7 @@ export function attributeToggledCssClass(css: string) {
     target[cssProp] = '';
     target[`${propertyKey}Changed`] = function (value: BooleanAttrValue) {
       this[cssProp] = handleBooleanAttrSimply(css, value);
-    }
+    };
   };
 }
 
@@ -21,7 +21,7 @@ export function stringToggledCssClass(css: string) {
     target[cssProp] = '';
     target[`${propertyKey}Changed`] = function (value: string) {
       this[cssProp] = value ? css : '';
-    }
+    };
   };
 }
 
@@ -31,6 +31,6 @@ export function stringPrefixedCssClass(prefix: string) {
     target[cssProp] = '';
     target[`${propertyKey}Changed`] = function (value: any) {
       this[cssProp] = value ? `${prefix}${value}` : '';
-    }
+    };
   };
 }

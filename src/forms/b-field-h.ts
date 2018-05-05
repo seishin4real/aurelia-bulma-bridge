@@ -1,4 +1,4 @@
-import { attributeToggledCssClass, BooleanAttrValue, stringPrefixedCssClass } from '../utils';
+import { stringPrefixedCssClass } from '../utils';
 import { bindable, containerless, customElement } from 'aurelia-framework';
 
 @containerless()

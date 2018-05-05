@@ -3,7 +3,7 @@ import { bindable, containerless, customElement } from 'aurelia-framework';
 
 @containerless()
 @customElement('b-addons')
-export class BAddonsComponent { 
+export class BAddonsComponent {
   @bindable() help: string;
 
   @bindable() isExpanded: BooleanAttrValue;

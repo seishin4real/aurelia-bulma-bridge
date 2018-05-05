@@ -6,6 +6,7 @@ import { bindable, containerless, customElement } from 'aurelia-framework';
 export class BTextareaComponent {
   @bindable() placeholder = '';
   @bindable() value: string;
+  @bindable() help: string;
 
   @stringPrefixedCssClass('is-')
   @bindable() size: 'normal' | 'small' | 'medium' | 'large';

@@ -1,0 +1,13 @@
+<template>
+  <article class="message">
+    <div class="message-header">
+      <slot name="header">
+        <p>${title}</p>
+        <button class="delete"></button>
+      </slot>
+    </div>
+    <div class="message-body">
+      <slot name="body"></slot>
+    </div>
+  </article>
+</template>
